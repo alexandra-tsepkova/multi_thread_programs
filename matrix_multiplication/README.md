@@ -18,5 +18,5 @@ python3 benchmark.py
 
 ## Результаты:
 
-![](https://github.com/alexandra-tsepkova/multi_thread_programs/blob/master/matrix_multiplication/Figure.png)
+![](https://github.com/alexandra-tsepkova/multi_thread_programs/blob/master/matrix_multiplication/Figure_updated.png)
 

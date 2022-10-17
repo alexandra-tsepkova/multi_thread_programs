@@ -23,7 +23,7 @@ def make_time_from_size_graph(program, name):
 def make_time_from_num_threads_graph(program, name):
     times = list()
     size = 2048
-    thread_num_list = [2 ** i for i in range(1, 6)]
+    thread_num_list = [2 + i for i in range(0, 11, 2)]
     for n in thread_num_list:
         start = time.time()
         subprocess.run([f"./{program}", str(size), str(n)])
